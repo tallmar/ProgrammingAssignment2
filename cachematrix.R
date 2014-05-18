@@ -22,9 +22,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-##  The cacheSolve function takes the some elements of the list created in the previous
+##  The cacheSolve function takes some elements of the list created in the previous
 ## function in order to calculate the inverse of the matrix and store it in the cache. 
-## But, if it has already been calculated, it doesn't do it again; it simply retrieves 
+## But, if it has already been calculated, it does not do it again; it simply retrieves 
 ## the cached data.
 
 cacheSolve <- function(x, ...) {
