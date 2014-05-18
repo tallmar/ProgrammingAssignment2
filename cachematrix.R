@@ -8,7 +8,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-##  test for commit Write a short comment describing this function
+##  test for commit 2 Write a short comment describing this function
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
